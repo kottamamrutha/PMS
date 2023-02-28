@@ -4,8 +4,8 @@ pipeline {
        PATH = "C:\\WINDOWS\\SYSTEM32"
     }
     tools { 
-      maven 'GD_MAVEN'
-      jdk 'GD_JDK' 
+      maven 'Maven'
+      jdk 'Jdk' 
     }
     stages {
         stage('Clean') {
